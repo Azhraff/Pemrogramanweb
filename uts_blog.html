@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Bree+Serif&family=Roboto+Mono&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto Mono', monospace;
+      background-color: white;
+    }
+
+    .container {
+      width: 1280px;
+      height: 832px;
+      position: relative;
+      margin: 0 auto;
+      overflow: hidden;
+      background-color: white;
+    }
+
+    .background {
+      position: absolute;
+      width: 1325px;
+      height: 843px;
+      top: 14px;
+      left: 0;
+      background-color: #C9B194;
+    }
+
+    .topbar {
+      position: absolute;
+      width: 1280px;
+      height: 200px;
+      top: 0;
+      left: 0;
+      background-color: #A08963;
+    }
+
+    .title {
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      font-size: 64px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      color: white;
+    }
+
+    .subtitle {
+      position: absolute;
+      top: 98px;
+      left: 16px;
+      width: 1250px;
+      font-size: 16px;
+      color: black;
+      font-weight: 400;
+    }
+
+    .quote {
+      position: absolute;
+      top: 153px;
+      left: 16px;
+      font-size: 16px;
+      color: black;
+      font-weight: 400;
+    }
+
+    .image {
+      position: absolute;
+    }
+
+    .image {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+    .img-main { width: 431px; height: 247px; top: 225px; left: 54px; }
+    .img-1 { width: 221px; height: 137px; top: 225px; left: 533px; }
+    .img-2 { width: 243px; height: 123px; top: 402px; left: 519px; }
+    .img-3 { width: 324px; height: 160px; top: 581px; left: 66px; }
+    .img-4 { width: 324px; height: 160px; top: 581px; left: 472px; }
+    .img-5 { width: 324px; height: 160px; top: 581px; left: 878px; }
+
+    .caption {
+      position: absolute;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .caption i {
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    .caption-1 { top: 754px; left: 66px; width: 341px; }
+    .caption-2 { top: 754px; left: 467px; }
+    .caption-3 { top: 754px; left: 887px; }
+
+    .entry {
+      position: absolute;
+      width: 460px;
+      color: #4A4747;
+      font-size: 16px;
+      font-family: 'Bree Serif', serif;
+      font-weight: 400;
+    }
+
+    .entry-1 { top: 301px; left: 772px; height: 92px; }
+    .entry-2 { top: 460px; left: 772px; height: 68px; }
+
+    .headline {
+      position: absolute;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .headline i {
+      font-style: italic;
+      font-weight: 600;
+    }
+
+    .headline-1 { top: 228px; left: 772px; }
+    .headline-2 { top: 402px; left: 772px; }
+
+    .footer-caption {
+      position: absolute;
+      top: 485px;
+      left: 54px;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .footer-caption i {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="background"></div>
+    <div class="topbar"></div>
+    <div class="title">BLOG</div>
+    <div class="subtitle">
+      Teruntuk setiap wanita yang melangkah anggun dalam balutan iman dan keindahan.
+      Di sini, kami hadir bukan hanya untuk menginspirasi gaya, tapi juga menghidupkan makna.
+      Sebab setiap helaian kain yang kau kenakan, bisa menjadi saksi cinta dan ibadah kepada-Nya.
+    </div>
+    <div class="quote">"Dan pakaian takwa itulah yang paling baik." (QS. Al-A’raf: 26)</div>
+
+    <!-- Gambar dan caption -->
+    <img class="image img-main" src="4-img1.jpg" alt="Main Blog" />
+    <img class="image img-1" src="4-img3.jpg" alt="Blog 1" />
+    <img class="image img-2" src="4-img4.jpg" alt="Blog 2" />
+    <img class="image img-3" src="4-img5.jpg" alt="Blog 3" />
+    <img class="image img-4" src="4-img2.jpg" alt="Blog 4" />
+    <img class="image img-5" src="4-img6.jpg" alt="Blog 5" />
+
+    <!-- Caption bawah gambar -->
+    <div class="caption caption-1">
+      Abaya Sepanjang Musim<br />
+      <i>by Salma Lathifa</i>
+    </div>
+    <div class="caption caption-2">
+      Mengenal Bahan Abaya ; Nyaman, Ringan, Syar’i<br />
+      <i>by Dewi Nurani</i>
+    </div>
+    <div class="caption caption-3">
+      Abaya di Tengah Dunia Modern<br />
+      <i>by Amara Fitra</i>
+    </div>
+
+    <!-- Ayat -->
+    <div class="entry entry-1">
+      "Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kekuasaan Allah) bagi orang-orang yang berpikir."
+      (QS. Ar-Rum: 21)
+    </div>
+    <div class="entry entry-2">
+      "Dan barang siapa mengagungkan syiar-syiar Allah, maka sesungguhnya itu berasal dari ketakwaan hati." <br />
+      (QS. Al-Hajj: 32)
+    </div>
+
+    <!-- Headline artikel -->
+    <div class="headline headline-1">
+      Warna Warni Abaya dan Makna Dibaliknya<br />
+      <i>by Hana Zahira</i>
+    </div>
+    <div class="headline headline-2">
+      Ketika Pakaian Menjadi Ibadah<br />
+      <i>by Ustadzah Nurul Azizah</i>
+    </div>
+
+    <!-- Footer teks -->
+    <div class="footer-caption">
+      Menemukan keindahan dalam kesederhanaan<br />
+      <i>by Amelia</i>
+    </div>
+  </div>
+</body>
+</html>
